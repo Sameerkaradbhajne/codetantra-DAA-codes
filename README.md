@@ -35,6 +35,15 @@
 
 ---
 
+> [!TIP]
+> **Divide & Conquer vs. Dynamic Programming:**  
+> Divide & Conquer solves independent subproblems (no overlap), whereas Dynamic Programming is designed for overlapping subproblems and optimal substructure where memoization or tabulation prevents redundant computation.
+
+> [!NOTE]
+> All algorithms in this repository are designed with optimal space efficiency to satisfy CodeTantra's memory constraints and strict test case limits.
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
@@ -66,8 +75,6 @@ DAA-Solutions/
 ## 📚 Detailed Module Breakdown
 
 ### ⚡ Practical 01 — Sorting & Divide and Conquer
-
-> **Strategy Focus:** Solves a problem by dividing it into smaller sub-problems of the same type, recursively solving them, and combining their results.
 
 <table>
 <tr>
@@ -108,8 +115,6 @@ DAA-Solutions/
 
 ### 🌲 Practical 02 — Minimum Spanning Trees
 
-> **Strategy Focus:** Makes locally optimal choices at each step to find a global minimum cost tree connecting all vertices.
-
 <table>
 <tr>
 <th>📄 Program</th>
@@ -149,8 +154,6 @@ DAA-Solutions/
 
 ### ↩️ Practical 03 — Backtracking
 
-> **Strategy Focus:** Systematically searches the state space by building candidate solutions incrementally, abandoning branches as soon as they become invalid.
-
 <table>
 <tr>
 <th>📄 Program</th>
@@ -176,8 +179,6 @@ DAA-Solutions/
 ---
 
 ### 🕸️ Practical 04 — Shortest Path Algorithms
-
-> **Strategy Focus:** Finding paths of minimum cumulative edge weights from a single source vertex to all other vertices.
 
 <table>
 <tr>
@@ -218,8 +219,6 @@ DAA-Solutions/
 
 ### 🗺️ Practical 05 — Graph Traversals
 
-> **Strategy Focus:** Systematic exploration of graph vertices and edges to evaluate connectivity and distance.
-
 <table>
 <tr>
 <th>📄 Program</th>
@@ -259,8 +258,6 @@ DAA-Solutions/
 
 ### 💰 Practical 06 — Greedy Method
 
-> **Strategy Focus:** Fills the knapsack capacity greedily by selecting items based on their profit/weight ratios.
-
 <table>
 <tr>
 <th>📄 Program</th>
@@ -287,8 +284,6 @@ DAA-Solutions/
 
 ### 📈 Practical 07 — Dynamic Programming
 
-> **Strategy Focus:** Resolves overlapping sub-problems by storing computed states to prevent redundant execution.
-
 <table>
 <tr>
 <th>📄 Program</th>
@@ -314,8 +309,6 @@ DAA-Solutions/
 ---
 
 ### ⛓️ Practical 08 — Branch and Bound
-
-> **Strategy Focus:** Solves optimization problems via state-space tree traversal, pruning suboptimal paths using bounding functions.
 
 <table>
 <tr>
@@ -358,6 +351,37 @@ TSP (B&B)       █████████████████████�
 Sum of Subsets  ██████████████████████████████████████████  O(2ⁿ)
 
                 ◄─── Faster                    Slower ───►
+```
+
+---
+
+## 💡 Algorithmic Paradigms Visual Map
+
+```mermaid
+graph TD
+    A[DAA Paradigms] --> B(Divide & Conquer)
+    A --> C(Greedy Method)
+    A --> D(Dynamic Programming)
+    A --> E(Backtracking)
+    A --> F(Branch & Bound)
+
+    B --> B1[Quick Sort]
+    B --> B2[Merge Sort]
+    C --> C1[Prim's MST]
+    C --> C2[Kruskal's MST]
+    C --> C3[Dijkstra's SSSP]
+    C --> C4[Fractional Knapsack]
+    D --> D1[Bellman-Ford]
+    D --> D2[LCS]
+    E --> E1[Sum of Subset]
+    F --> F1[Travelling Salesperson]
+
+    style A fill:#1f6feb,stroke:#388bfd,stroke-width:2px,color:#fff
+    style B fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#8b949e
+    style C fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#8b949e
+    style D fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#8b949e
+    style E fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#8b949e
+    style F fill:#161b22,stroke:#58a6ff,stroke-width:1px,color:#8b949e
 ```
 
 ---

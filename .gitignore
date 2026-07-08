@@ -1,0 +1,25 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dylib
+quick_sort
+binary_search
+merge_sort
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.filters
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
