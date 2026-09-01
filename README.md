@@ -25,7 +25,7 @@
 <table>
 <tr>
 <td align="center"><b>📁 Practicals</b><br/><code>8 Modules</code></td>
-<td align="center"><b>📄 Programs</b><br/><code>12 Solutions</code></td>
+<td align="center"><b>📄 Programs</b><br/><code>13 Solutions</code></td>
 <td align="center"><b>🧠 Design Strategies</b><br/><code>5 Paradigms</code></td>
 <td align="center"><b>⚡ Language</b><br/><code>Pure C</code></td>
 </tr>
@@ -50,7 +50,8 @@
 DAA-Solutions/
 ├── 📂 Practical - 01 (Sorting & Divide and Conquer)
 │   ├── 1.1.1. Quick Sort.c
-│   └── 1.1.2. Merge Sort - Divide and Conquer.c
+│   ├── 1.1.2. Merge Sort - Divide and Conquer.c
+│   └── 1.1.8. Matrix Multiplication.c
 ├── 📂 Practical - 02 (Minimum Spanning Trees)
 │   ├── 1.1.3. Minimum Spanning Tree using Prim's.c
 │   └── 1.1.4. Minimum Spanning Tree using Kruskal's.c
@@ -107,6 +108,19 @@ DAA-Solutions/
 <td>
 <b>Divide & Conquer</b><br/>
 <code>O(n)</code> (Aux space)
+</td>
+</tr>
+<tr>
+<td><b>1.1.8.</b> Matrix Multiplication</td>
+<td>Reads dimensions and elements of matrices A and B, validates multiplication feasibility (c1 = r2), and computes the product matrix.</td>
+<td>
+<code>Best: O(r1 * c1 * c2)</code><br/>
+<code>Avg: O(r1 * c1 * c2)</code><br/>
+<code>Worst: O(r1 * c1 * c2)</code>
+</td>
+<td>
+<b>Matrix Operations</b><br/>
+<code>O(r1*c1 + r2*c2 + r1*c2)</code>
 </td>
 </tr>
 </table>
@@ -367,6 +381,7 @@ graph TD
 
     B --> B1[Quick Sort]
     B --> B2[Merge Sort]
+    B --> B3[Matrix Multiplication]
     C --> C1[Prim's MST]
     C --> C2[Kruskal's MST]
     C --> C3[Dijkstra's SSSP]
