@@ -50,8 +50,7 @@
 DAA-Solutions/
 ├── 📂 Practical - 01 (Sorting & Divide and Conquer)
 │   ├── 1.1.1. Quick Sort.c
-│   ├── 1.1.2. Merge Sort - Divide and Conquer.c
-│   └── 1.1.8. Matrix Multiplication.c
+│   └── 1.1.2. Merge Sort - Divide and Conquer.c
 ├── 📂 Practical - 02 (Minimum Spanning Trees)
 │   ├── 1.1.3. Minimum Spanning Tree using Prim's.c
 │   └── 1.1.4. Minimum Spanning Tree using Kruskal's.c
@@ -59,7 +58,8 @@ DAA-Solutions/
 │   └── 1.1.5. Implement Sum of Subset Problem Using Backtracking.c
 ├── 📂 Practical - 04 (Shortest Path Algorithms)
 │   ├── 1.1.6. Dijkstra's Shortest Path Algorithm.c
-│   └── 1.1.7. Bellman-Ford algorithm.c
+│   ├── 1.1.7. Bellman-Ford algorithm.c
+│   └── 1.1.8. Matrix Multiplication.c
 ├── 📂 Practical - 05 (Graph Traversals)
 │   ├── 1.1.9. Breadth First Search (BFS).c
 │   └── 1.1.10. Depth-First Search (DFS).c
@@ -108,19 +108,6 @@ DAA-Solutions/
 <td>
 <b>Divide & Conquer</b><br/>
 <code>O(n)</code> (Aux space)
-</td>
-</tr>
-<tr>
-<td><b>1.1.8.</b> Matrix Multiplication</td>
-<td>Reads dimensions and elements of matrices A and B, validates multiplication feasibility (c1 = r2), and computes the product matrix.</td>
-<td>
-<code>Best: O(r1 * c1 * c2)</code><br/>
-<code>Avg: O(r1 * c1 * c2)</code><br/>
-<code>Worst: O(r1 * c1 * c2)</code>
-</td>
-<td>
-<b>Matrix Operations</b><br/>
-<code>O(r1*c1 + r2*c2 + r1*c2)</code>
 </td>
 </tr>
 </table>
@@ -225,6 +212,19 @@ DAA-Solutions/
 <td>
 <b>Dynamic Programming</b><br/>
 <code>O(V)</code> (Distance table)
+</td>
+</tr>
+<tr>
+<td><b>1.1.8.</b> Matrix Multiplication</td>
+<td>Reads dimensions and elements of matrices A and B, validates multiplication feasibility (c1 = r2), and computes the product matrix.</td>
+<td>
+<code>Best: O(r1 * c1 * c2)</code><br/>
+<code>Avg: O(r1 * c1 * c2)</code><br/>
+<code>Worst: O(r1 * c1 * c2)</code>
+</td>
+<td>
+<b>Matrix Operations</b><br/>
+<code>O(r1*c1 + r2*c2 + r1*c2)</code>
 </td>
 </tr>
 </table>

@@ -1,7 +1,7 @@
 /**
  * @file 1.1.8. Matrix Multiplication.c
  * @brief Write a program to multiply two matrices A and B. Check whether matrix multiplication is possible.
- * @strategy Matrix Operations / Divide and Conquer
+ * @strategy Dynamic Programming / All-Pairs Shortest Path Matrix Operations
  * @complexity
  *   - Time Complexity: O(r1 * c1 * c2)
  *   - Space Complexity: O(r1 * c1 + r2 * c2 + r1 * c2)
