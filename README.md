@@ -44,31 +44,59 @@
 
 ---
 
+## 🎯 Continuous Assessment 3 (CA-3) — Component 2 (Use of AI - 5 Marks)
+
+> [!IMPORTANT]
+> **CA-3 Deliverable Overview:**  
+> This repository houses the complete Continuous Assessment 3 (CA-3: Component 2) submission exploring **Dijkstra's Single-Source Shortest Path (SSSP) Algorithm** leveraging generative AI synthesis.  
+> 
+> - **Detailed Dossier & Trace Table:** 🔗 **[Explore CA-3 Submission & Documentation](CA-3/README.md)**
+> - **Official Presentation Deck:** 📊 **[dijkstras-algorithm-presentation.pptx](CA-3/presentation/dijkstras-algorithm-presentation.pptx)**
+> - **AI Explainer Video:** 📽️ **[dijkstra-algorithm-explainer.mp4](CA-3/video/dijkstra-algorithm-explainer.mp4)**
+> - **Mandatory Attribution:** Generated using Google NotebookLM & Google Gemini 1.5 Pro
+> - **Submission Deadline:** 20th October 2026
+
+| Component | Asset File | Format | Attribution & Scope |
+| :--- | :--- | :---: | :--- |
+| **Presentation Deck** | [`dijkstras-algorithm-presentation.pptx`](CA-3/presentation/dijkstras-algorithm-presentation.pptx) | `.pptx` | Generated & formatted with NotebookLM / Gemini; covers SSSP theory, min-heap analysis, and worked 5-vertex trace. |
+| **Visual Deck** | [`dijkstras-algorithm-illustrated.pptx`](CA-3/presentation/dijkstras-algorithm-illustrated.pptx) | `.pptx` | Illustrated visual deck with detailed network graphs and transition diagrams. |
+| **Explainer Video** | [`dijkstra-algorithm-explainer.mp4`](CA-3/video/dijkstra-algorithm-explainer.mp4) | `.mp4` | Deep dive audio-visual explainer generated via NotebookLM analyzing greedy choice optimality, relaxation invariant, and OSPF routing. |
+| **Submission README** | [`CA-3/README.md`](CA-3/README.md) | `.md` | Full academic dossier with state transition tables, complexity comparisons, negative weight counterexamples, and lab code links. |
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
-DAA-Solutions/
-├── 📂 Practical - 01 (Sorting & Divide and Conquer)
-│   ├── 1.1.1. Quick Sort.c
-│   └── 1.1.2. Merge Sort - Divide and Conquer.c
-├── 📂 Practical - 02 (Minimum Spanning Trees)
-│   ├── 1.1.3. Minimum Spanning Tree using Prim's.c
-│   └── 1.1.4. Minimum Spanning Tree using Kruskal's.c
-├── 📂 Practical - 03 (Backtracking)
-│   └── 1.1.5. Implement Sum of Subset Problem Using Backtracking.c
-├── 📂 Practical - 04 (Shortest Path Algorithms)
-│   ├── 1.1.6. Dijkstra's Shortest Path Algorithm.c
-│   ├── 1.1.7. Bellman-Ford algorithm.c
-│   └── 1.1.8. Matrix Multiplication.c
-├── 📂 Practical - 05 (Graph Traversals)
-│   ├── 1.1.9. Breadth First Search (BFS).c
-│   └── 1.1.10. Depth-First Search (DFS).c
-├── 📂 Practical - 06 (Greedy Method)
-│   └── 1.1.11. Knapsack Problem.c
-├── 📂 Practical - 07 (Dynamic Programming)
-│   └── 1.1.12. Longest Common Sub Sequence.c
-└── 📂 Practical - 08 (Branch and Bound)
-    └── 1.1.13. Travelling Salesman Problem.c
+├── 📂 CA-3/ (Continuous Assessment 3: Component 2 - Use of AI)
+│   ├── 📁 presentation/
+│   │   ├── dijkstras-algorithm-presentation.pptx
+│   │   └── dijkstras-algorithm-illustrated.pptx
+│   ├── 📁 video/
+│   │   └── dijkstra-algorithm-explainer.mp4
+│   └── 📄 README.md
+└── 📂 DAA-Solutions/
+    ├── 📂 Practical - 01 (Sorting & Divide and Conquer)
+    │   ├── 1.1.1. Quick Sort.c
+    │   └── 1.1.2. Merge Sort - Divide and Conquer.c
+    ├── 📂 Practical - 02 (Minimum Spanning Trees)
+    │   ├── 1.1.3. Minimum Spanning Tree using Prim's.c
+    │   └── 1.1.4. Minimum Spanning Tree using Kruskal's.c
+    ├── 📂 Practical - 03 (Backtracking)
+    │   └── 1.1.5. Implement Sum of Subset Problem Using Backtracking.c
+    ├── 📂 Practical - 04 (Shortest Path Algorithms)
+    │   ├── 1.1.6. Dijkstra's Shortest Path Algorithm.c
+    │   ├── 1.1.7. Bellman-Ford algorithm.c
+    │   └── 1.1.8. Matrix Multiplication.c
+    ├── 📂 Practical - 05 (Graph Traversals)
+    │   ├── 1.1.9. Breadth First Search (BFS).c
+    │   └── 1.1.10. Depth-First Search (DFS).c
+    ├── 📂 Practical - 06 (Greedy Method)
+    │   └── 1.1.11. Knapsack Problem.c
+    ├── 📂 Practical - 07 (Dynamic Programming)
+    │   └── 1.1.12. Longest Common Sub Sequence.c
+    └── 📂 Practical - 08 (Branch and Bound)
+        └── 1.1.13. Travelling Salesman Problem.c
 ```
 
 ---
@@ -281,15 +309,15 @@ DAA-Solutions/
 </tr>
 <tr>
 <td><b>1.1.11.</b> Knapsack Problem</td>
-<td>Maximizes value of items in a capacity-limited knapsack. Implements Greedy Fractional knapsack logic.</td>
+<td>Solves the 0/1 Knapsack Problem by maximizing the total value without exceeding capacity using 1D space-optimized DP table.</td>
 <td>
-<code>Best: O(n log n)</code><br/>
-<code>Avg: O(n log n)</code><br/>
-<code>Worst: O(n log n)</code>
+<code>Best: O(N * W)</code><br/>
+<code>Avg: O(N * W)</code><br/>
+<code>Worst: O(N * W)</code>
 </td>
 <td>
-<b>Greedy Method</b><br/>
-<code>O(n)</code> (Sorting array)
+<b>Dynamic Programming</b><br/>
+<code>O(W)</code> (1D DP Array)
 </td>
 </tr>
 </table>
@@ -307,15 +335,15 @@ DAA-Solutions/
 </tr>
 <tr>
 <td><b>1.1.12.</b> Longest Common Sub Sequence</td>
-<td>Finds the longest common subsequence of two strings by tabulating matching prefix lengths bottom-up.</td>
+<td>Finds the length of the Longest Common Subsequence among three strings using a 3D bottom-up dynamic programming table.</td>
 <td>
-<code>Best: O(m*n)</code><br/>
-<code>Avg: O(m*n)</code><br/>
-<code>Worst: O(m*n)</code>
+<code>Best: O(m*n*o)</code><br/>
+<code>Avg: O(m*n*o)</code><br/>
+<code>Worst: O(m*n*o)</code>
 </td>
 <td>
 <b>Dynamic Programming</b><br/>
-<code>O(m*n)</code> (LCS table)
+<code>O(m*n*o)</code> (3D DP Table)
 </td>
 </tr>
 </table>
