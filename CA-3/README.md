@@ -72,6 +72,11 @@ The CA-3 submission is packaged in this dedicated directory structure:
 
 ```text
 CA-3/
+├── assets/                                     # Presentation & video display preview assets
+│   ├── presentation-slide-1-preview.png        # Slide 1 high-resolution preview card
+│   ├── video-explainer-preview.png             # Video player display card (09:25)
+│   ├── frame_1s.jpg                            # Graph traversal network frame
+│   └── frame_250s.jpg                          # Distance ledger edge relaxation frame
 ├── presentation/
 │   ├── dijkstras-algorithm-presentation.pptx   # Official 10-slide curriculum presentation
 │   └── dijkstras-algorithm-illustrated.pptx    # High-resolution illustrated slide deck
@@ -79,6 +84,76 @@ CA-3/
 │   └── dijkstra-algorithm-explainer.mp4        # Companion AI-generated explainer video
 └── README.md                                   # Comprehensive submission dossier (This File)
 ```
+
+---
+
+## 📺 Submission Display: Presentation & Video Showcase
+
+### 📊 1. Official Course Presentation (First Slide Preview)
+
+<div align="center">
+
+<a href="presentation/dijkstras-algorithm-presentation.pptx">
+  <img src="assets/presentation-slide-1-preview.png" alt="Dijkstra's Algorithm Presentation Slide 1 Preview" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
+</a>
+
+<p align="center">
+  <b>Slide 1 Preview:</b> Course Evaluation Title Slide • SSSP Theory & Min-Heap Optimization • CA-3 Component 2 Submission<br/>
+  📥 <a href="presentation/dijkstras-algorithm-presentation.pptx"><b>Download Official Presentation (.pptx)</b></a> • 
+  🖼️ <a href="presentation/dijkstras-algorithm-illustrated.pptx"><b>View Illustrated Graphic Deck (.pptx)</b></a>
+</p>
+
+</div>
+
+---
+
+### 📽️ 2. Companion AI Explainer Video ("Engineering Dijkstra")
+
+<div align="center">
+
+<!-- GitHub native video embed -->
+<video src="video/dijkstra-algorithm-explainer.mp4" controls width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);">
+  Your browser does not support the video tag.
+</video>
+
+<br/><br/>
+
+<!-- Clickable video preview poster card -->
+<a href="video/dijkstra-algorithm-explainer.mp4">
+  <img src="assets/video-explainer-preview.png" alt="Engineering Dijkstra AI Explainer Video Preview" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
+</a>
+
+<p align="center">
+  ▶️ <a href="video/dijkstra-algorithm-explainer.mp4"><b>Watch Full Explainer Video (dijkstra-algorithm-explainer.mp4 • 9m 25s)</b></a><br/>
+  <i>Synthesized using Google NotebookLM Deep Dive & Audio-Visual Engine • 1080p HD</i>
+</p>
+
+</div>
+
+#### 🎬 Key Video Discussion Landmarks
+
+<table>
+<tr>
+<th width="50%">🔬 Algorithmic Traversal & Radiant Paths</th>
+<th width="50%">📋 State Relaxation Ledger & Path Decisions</th>
+</tr>
+<tr>
+<td align="center">
+  <a href="video/dijkstra-algorithm-explainer.mp4">
+    <img src="assets/frame_1s.jpg" alt="Graph Traversal Visual" width="95%" style="border-radius: 8px;"/>
+  </a><br/>
+  <sub><i>Dynamic graph traversal tracing radiant shortest path exploration</i></sub>
+</td>
+<td align="center">
+  <a href="video/dijkstra-algorithm-explainer.mp4">
+    <img src="assets/frame_250s.jpg" alt="Distance Ledger Visual" width="95%" style="border-radius: 8px;"/>
+  </a><br/>
+  <sub><i>Distance ledger verifying triangle inequality edge relaxation ($D \to F$)</i></sub>
+</td>
+</tr>
+</table>
+
+---
 
 ### Direct Asset Links
 

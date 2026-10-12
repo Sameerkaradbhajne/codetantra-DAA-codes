@@ -63,12 +63,40 @@
 | **Explainer Video** | [`dijkstra-algorithm-explainer.mp4`](CA-3/video/dijkstra-algorithm-explainer.mp4) | `.mp4` | Deep dive audio-visual explainer generated via NotebookLM analyzing greedy choice optimality, relaxation invariant, and OSPF routing. |
 | **Submission README** | [`CA-3/README.md`](CA-3/README.md) | `.md` | Full academic dossier with state transition tables, complexity comparisons, negative weight counterexamples, and lab code links. |
 
+### 📺 CA-3 Submission Visual Showcase
+
+<table>
+<tr>
+<th width="50%" align="center">📊 Presentation Deck (First Slide Preview)</th>
+<th width="50%" align="center">📽️ Companion AI Explainer Video (09m 25s)</th>
+</tr>
+<tr>
+<td align="center">
+  <a href="CA-3/presentation/dijkstras-algorithm-presentation.pptx">
+    <img src="CA-3/assets/presentation-slide-1-preview.png" alt="Dijkstra Presentation Slide 1 Preview" width="100%" style="border-radius: 8px;"/>
+  </a><br/>
+  <sub><b>Slide 1:</b> Curriculum Title & SSSP Framework • <a href="CA-3/presentation/dijkstras-algorithm-presentation.pptx"><b>Download .pptx</b></a></sub>
+</td>
+<td align="center">
+  <a href="CA-3/video/dijkstra-algorithm-explainer.mp4">
+    <img src="CA-3/assets/video-explainer-preview.png" alt="Engineering Dijkstra AI Explainer Video Preview" width="100%" style="border-radius: 8px;"/>
+  </a><br/>
+  <sub><b>Explainer Video:</b> NotebookLM Deep Dive (1080p HD) • <a href="CA-3/video/dijkstra-algorithm-explainer.mp4"><b>Watch Video</b></a></sub>
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🗂️ Repository Structure
 
 ```
 ├── 📂 CA-3/ (Continuous Assessment 3: Component 2 - Use of AI)
+│   ├── 📁 assets/
+│   │   ├── presentation-slide-1-preview.png
+│   │   ├── video-explainer-preview.png
+│   │   ├── frame_1s.jpg
+│   │   └── frame_250s.jpg
 │   ├── 📁 presentation/
 │   │   ├── dijkstras-algorithm-presentation.pptx
 │   │   └── dijkstras-algorithm-illustrated.pptx
