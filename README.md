@@ -51,15 +51,15 @@
 > This repository houses the complete Continuous Assessment 3 (CA-3: Component 2) submission exploring **Dijkstra's Single-Source Shortest Path (SSSP) Algorithm** leveraging generative AI synthesis.  
 > 
 > - **Detailed Dossier & Trace Table:** 🔗 **[Explore CA-3 Submission & Documentation](CA-3/README.md)**
-> - **Official Presentation Deck:** 📊 **[dijkstras-algorithm-presentation.pptx](CA-3/presentation/dijkstras-algorithm-presentation.pptx)**
+> - **Official Presentation Deck:** 📊 **[dijkstras-algorithm-illustrated.pptx](https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx)**
 > - **AI Explainer Video:** 📽️ **[dijkstra-algorithm-explainer.mp4](CA-3/video/dijkstra-algorithm-explainer.mp4)**
 > - **Mandatory Attribution:** Generated using Google NotebookLM & Google Gemini 1.5 Pro
 > - **Submission Deadline:** 20th October 2026
 
 | Component | Asset File | Format | Attribution & Scope |
 | :--- | :--- | :---: | :--- |
-| **Presentation Deck** | [`dijkstras-algorithm-presentation.pptx`](CA-3/presentation/dijkstras-algorithm-presentation.pptx) | `.pptx` | Generated & formatted with NotebookLM / Gemini; covers SSSP theory, min-heap analysis, and worked 5-vertex trace. |
-| **Visual Deck** | [`dijkstras-algorithm-illustrated.pptx`](CA-3/presentation/dijkstras-algorithm-illustrated.pptx) | `.pptx` | Illustrated visual deck with detailed network graphs and transition diagrams. |
+| **Visual Deck** | [`dijkstras-algorithm-illustrated.pptx`](https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx) | `.pptx` | Illustrated visual deck with detailed network graphs, SSSP theory, min-heap analysis, and worked trace. |
+| **Curriculum Presentation Deck** | [`dijkstras-algorithm-presentation.pptx`](CA-3/presentation/dijkstras-algorithm-presentation.pptx) | `.pptx` | Companion theoretical deck generated with NotebookLM / Gemini. |
 | **Explainer Video** | [`dijkstra-algorithm-explainer.mp4`](CA-3/video/dijkstra-algorithm-explainer.mp4) | `.mp4` | Deep dive audio-visual explainer generated via NotebookLM analyzing greedy choice optimality, relaxation invariant, and OSPF routing. |
 | **Submission README** | [`CA-3/README.md`](CA-3/README.md) | `.md` | Full academic dossier with state transition tables, complexity comparisons, negative weight counterexamples, and lab code links. |
 
@@ -67,15 +67,15 @@
 
 <table>
 <tr>
-<th width="50%" align="center">📊 Presentation Deck (First Slide Preview)</th>
+<th width="50%" align="center">📊 Illustrated Presentation Deck (Slide Preview)</th>
 <th width="50%" align="center">📽️ Companion AI Explainer Video (09m 25s)</th>
 </tr>
 <tr>
 <td align="center">
-  <a href="CA-3/presentation/dijkstras-algorithm-presentation.pptx">
-    <img src="CA-3/assets/presentation-slide-1-preview.png" alt="Dijkstra Presentation Slide 1 Preview" width="100%" style="border-radius: 8px;"/>
+  <a href="https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx">
+    <img src="CA-3/assets/dijkstras-algorithm-illustrated-preview.png" alt="Historical Genesis & SSSP Foundations - Dijkstra Illustrated Presentation" width="100%" style="border-radius: 8px;"/>
   </a><br/>
-  <sub><b>Slide 1:</b> Curriculum Title & SSSP Framework • <a href="CA-3/presentation/dijkstras-algorithm-presentation.pptx"><b>Download .pptx</b></a></sub>
+  <sub><b>Historical Genesis & SSSP Foundations:</b> Visual Deck • <a href="https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx"><b>Download .pptx</b></a></sub>
 </td>
 <td align="center">
   <a href="CA-3/video/dijkstra-algorithm-explainer.mp4">
@@ -98,8 +98,8 @@
 │   │   ├── frame_1s.jpg
 │   │   └── frame_250s.jpg
 │   ├── 📁 presentation/
-│   │   ├── dijkstras-algorithm-presentation.pptx
-│   │   └── dijkstras-algorithm-illustrated.pptx
+│   │   ├── dijkstras-algorithm-illustrated.pptx
+│   │   └── dijkstras-algorithm-presentation.pptx
 │   ├── 📁 video/
 │   │   └── dijkstra-algorithm-explainer.mp4
 │   └── 📄 README.md

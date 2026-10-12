@@ -51,7 +51,7 @@ graph LR
     B --> C[Audio & Video Explainer Synthesis]
     B --> D[Pedagogical Presentation Slides]
     C --> E[dijkstra-algorithm-explainer.mp4]
-    D --> F[dijkstras-algorithm-presentation.pptx]
+    D --> F[dijkstras-algorithm-illustrated.pptx]
     E --> G[Human Review & Verification]
     F --> G
 ```
@@ -62,7 +62,7 @@ graph LR
    - Edge relaxation: $dist[v] \leftarrow \min(dist[v], dist[u] + w(u, v))$.
    - How a Min-Heap reduces complexity from $O(V^2)$ to $O((V + E)\log V)$.
    - Failure mode under **negative edge weights** and why Bellman-Ford must be chosen instead.
-3. **Slide Production**: Structural outlines were drafted and formatted into a ten-slide curriculum deck complete with worked execution tables and complexity comparison charts.
+3. **Slide Production**: Structural outlines were drafted and formatted into a comprehensive illustrated presentation deck complete with worked execution tables and complexity comparison charts.
 
 ---
 
@@ -73,13 +73,13 @@ The CA-3 submission is packaged in this dedicated directory structure:
 ```text
 CA-3/
 ├── assets/                                     # Presentation & video display preview assets
-│   ├── presentation-slide-1-preview.png        # Slide 1 high-resolution preview card
+│   ├── presentation-slide-1-preview.png        # Featured slide high-resolution preview card
 │   ├── video-explainer-preview.png             # Video player display card (09:25)
 │   ├── frame_1s.jpg                            # Graph traversal network frame
 │   └── frame_250s.jpg                          # Distance ledger edge relaxation frame
 ├── presentation/
-│   ├── dijkstras-algorithm-presentation.pptx   # Official 10-slide curriculum presentation
-│   └── dijkstras-algorithm-illustrated.pptx    # High-resolution illustrated slide deck
+│   ├── dijkstras-algorithm-illustrated.pptx    # Official illustrated presentation deck
+│   └── dijkstras-algorithm-presentation.pptx   # Companion curriculum presentation deck
 ├── video/
 │   └── dijkstra-algorithm-explainer.mp4        # Companion AI-generated explainer video
 └── README.md                                   # Comprehensive submission dossier (This File)
@@ -89,18 +89,18 @@ CA-3/
 
 ## 📺 Submission Display: Presentation & Video Showcase
 
-### 📊 1. Official Course Presentation (First Slide Preview)
+### 📊 1. Official Course Presentation (Illustrated Slide Deck Preview)
 
 <div align="center">
 
-<a href="presentation/dijkstras-algorithm-presentation.pptx">
-  <img src="assets/presentation-slide-1-preview.png" alt="Dijkstra's Algorithm Presentation Slide 1 Preview" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
+<a href="https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx">
+  <img src="assets/dijkstras-algorithm-illustrated-preview.png" alt="Historical Genesis and SSSP Foundations - Edsger W. Dijkstra" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
 </a>
 
 <p align="center">
-  <b>Slide 1 Preview:</b> Course Evaluation Title Slide • SSSP Theory & Min-Heap Optimization • CA-3 Component 2 Submission<br/>
-  📥 <a href="presentation/dijkstras-algorithm-presentation.pptx"><b>Download Official Presentation (.pptx)</b></a> • 
-  🖼️ <a href="presentation/dijkstras-algorithm-illustrated.pptx"><b>View Illustrated Graphic Deck (.pptx)</b></a>
+  <b>Featured Slide:</b> Historical Genesis & SSSP Foundations • Edsger W. Dijkstra (1956/1959) • Monotonic Settlement Invariant<br/>
+  📥 <a href="https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx"><b>Download Visual Deck (.pptx)</b></a> • 
+  📄 <a href="presentation/dijkstras-algorithm-presentation.pptx"><b>Theoretical Deck (.pptx)</b></a>
 </p>
 
 </div>
@@ -159,10 +159,10 @@ CA-3/
 
 - 📽️ **AI-Generated Explainer Video:** [dijkstra-algorithm-explainer.mp4](video/dijkstra-algorithm-explainer.mp4) (87.68 MB)  
   *Audio-visual deep dive breaking down graph traversal, greedy choice property, min-heap mechanics, and OSPF routing.*
-- 📊 **Official Course Presentation:** [dijkstras-algorithm-presentation.pptx](presentation/dijkstras-algorithm-presentation.pptx) (90 KB)  
+- 📊 **Official Course Presentation (Visual Deck):** [dijkstras-algorithm-illustrated.pptx](https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx) (20.7 MB)  
+  *Illustrated visual deck featuring high-resolution network diagrams, edge relaxation graphs, SSSP theory, and worked trace.*
+- 📄 **Theoretical Presentation Deck:** [dijkstras-algorithm-presentation.pptx](presentation/dijkstras-algorithm-presentation.pptx) (90 KB)  
   *10 structured slides containing formal problem statements, pseudocode, 5-node trace, complexity comparisons, and CA-3 evaluation checklist.*
-- 🖼️ **Illustrated Graphic Slide Deck:** [dijkstras-algorithm-illustrated.pptx](presentation/dijkstras-algorithm-illustrated.pptx) (20.7 MB)  
-  *Visual deck featuring network diagrams, edge relaxation graphs, and state charts.*
 
 ---
 
@@ -296,7 +296,7 @@ for (int count = 0; count < V - 1; count++) {
 ## 📋 Evaluation Checklist
 
 - [x] **Dedicated Directory Structure** (`CA-3/` with `presentation/`, `video/`, and `README.md`)
-- [x] **Presentation Deliverable** (`dijkstras-algorithm-presentation.pptx` + illustrated deck)
+- [x] **Presentation Deliverable** ([dijkstras-algorithm-illustrated.pptx](https://github.com/Sameerkaradbhajne/codetantra-DAA-codes/blob/main/CA-3/presentation/dijkstras-algorithm-illustrated.pptx))
 - [x] **AI Explainer Video Deliverable** (`dijkstra-algorithm-explainer.mp4`)
 - [x] **Mandatory AI Tool Attribution** (Explicitly credited to Google NotebookLM & Gemini)
 - [x] **Repository Visibility Verified** (Public repository on GitHub)
