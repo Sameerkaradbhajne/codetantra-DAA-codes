@@ -389,7 +389,7 @@
 </tr>
 <tr>
 <td><b>1.1.13.</b> Travelling Salesman Problem</td>
-<td>Computes the shortest path visiting all cities once and returning to source using Branch and Bound state-space search.</td>
+<td>Finds the minimum-cost Hamiltonian cycle visiting every city exactly once. Uses Branch and Bound with bitmask DP (top-down memoisation) — <code>dp[mask][pos]</code> stores minimum cost to reach <code>pos</code> with visited-set <code>mask</code>.</td>
 <td>
 <code>Best: O(2ⁿ * n²)</code><br/>
 <code>Avg: O(2ⁿ * n²)</code><br/>
